@@ -1,0 +1,7 @@
+@import "styles/colors";
+@import "styles/animations";
+@import "styles/theme";
+html{
+    background-color: var(--accent-color);
+    height: 100%;
+}

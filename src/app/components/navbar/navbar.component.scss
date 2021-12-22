@@ -1,0 +1,32 @@
+.spacer {
+    flex: 1;
+  }
+  
+.toolbar {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background: var(--toolbar-color);
+    color: var(--toolbar-text-color);
+    font-weight: 600;
+
+    img {
+      margin: 0 16px;
+    }
+
+    #dark-mode {
+      height: 40px;
+      margin: 0 16px;
+
+      & {
+        :hover {
+          opacity: 0.8;
+        }
+      }
+    }
+    .dark-mode{
+      align-items: flex-end;
+      padding-right: 2rem;
+    }
+  }
